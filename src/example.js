@@ -1,10 +1,8 @@
-// This file has intentional linting errors
-const unusedVar = 'this is unused';
-
+// This file has fixed linting errors
 function example() {
-  console.log("This uses double quotes");
-  let x = 5
-  return x
+  console.log('This uses single quotes');
+  let x = 5;
+  return x;
 }
 
 example();
